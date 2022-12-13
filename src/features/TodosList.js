@@ -6,7 +6,11 @@ import { getTodos, updateTodos, deleteTodos, addTodos } from "../api/todosApi";
 import { FontAwesomeIcon } from "@fontawesome/react-fontawesome";
 import { faTrash, faUpload } from "@fontawesome/free-solid-svg-icons";
 
+import { useState } from "react";
+
 const TodosList = () => {
+  const [newTodo, setNewTodo] = useState(" ");
+
   return <div>TodosList</div>;
 };
 
