@@ -1,8 +1,8 @@
-
+import TodosList from "./features/TodosList";
 function App() {
   return (
     <div className="App">
-      hello
+      <TodosList />
     </div>
   );
 }
